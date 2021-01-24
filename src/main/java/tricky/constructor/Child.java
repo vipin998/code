@@ -13,7 +13,7 @@ package tricky.constructor;
 public class Child {
     public static void main(String[] args) {
         Child c1 = new Child(); // allowed
-        Child c2 = new Parent(); // not allowed
+     //   Child c2 = new Parent(); // not allowed
     }
 
     /* A constructor cannot be called as a method.
